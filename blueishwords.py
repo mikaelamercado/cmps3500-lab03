@@ -11,3 +11,6 @@ with open("constitution.txt") as file:
         if 'e' in line and 'l' in line and 'u' in line:
             blue.append(line)
     print(len(blue))
+    print("\nAll Blueish Words:")
+    print blue,
+    
